@@ -1,7 +1,13 @@
 # Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments
 *In this repository, you can find a dataset of 11k user comments to immigration-related news articles labeled with 15 immigration-related topics and stances towards immigration (positive, negative, and unclear), as well as Python notebooks with the models used for that task.*
 
-### Task
+## Table of contents
+* [Project background](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Project-background)
+* [Data structure](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Data-structure)
+* [Executive summary](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Executive-summary)
+* [Recommendations](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Recommendations)
+
+## Project background
 I was tasked with to efficiently label a dataset of 11k user comments to immigration-related news articles with discussion topics and stances towards immigration. To achieve that, I applied several NLP models to automate the task. 
 
 ### Approach for topics
@@ -10,3 +16,7 @@ For topics, I first used 2 unsupervised topic models, LDA and CorEx, and they bo
 
 ### Approach for stances
 For stances, I explored the use of Anchored CorEx and a conversational language model Llama-3. The first approach proved to be not feasible at all, and the latter model turned out an efficient solution for stance labeling, with accuracy at 69%.
+
+## Data structure
+
+## Executive summary
