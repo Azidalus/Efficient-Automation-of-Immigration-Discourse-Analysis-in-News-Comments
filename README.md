@@ -10,7 +10,7 @@
 ## Project background
 The HYBRIDS organization aims to explore how people with varying attitudes toward immigration express their thoughts, but requires labeled data to do so.
 
-This project is labeling a dataset comprising approximately 11,000 user comments on immigration-related online news articles,
+This project focuses on labeling a dataset for HYBRIDS. comprising approximately 11,000 user comments on immigration-related online news articles,
 categorizing them by specific immigration discussion topics and stances (positive, negative, or unclear).
 I was tasked with to efficiently label a dataset of 11k user comments to immigration-related news articles with discussion topics and stances towards immigration. To achieve that, I applied several NLP models to automate the task. 
 
