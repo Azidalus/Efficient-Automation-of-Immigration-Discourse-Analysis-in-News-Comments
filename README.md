@@ -4,7 +4,7 @@
 ## Table of contents
 * [Project background](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Project-background)
 * [Data structure](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Data-structure)
-* [Methodology](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Executive-summary)
+* [Methodology](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Methodology)
 * [Recommendations](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Recommendations)
 
 ## Project background
