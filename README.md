@@ -13,7 +13,8 @@ The HYBRIDS organization aims to explore how people with varying attitudes towar
 This project focuses on efficient automated labeling of a dataset requested by HYBRIDS with discussion topics and stances towards immigration (positive, negative, or unclear). To achieve that, several NLP models are applied and a web-application for their further use is created. 
 
 ## Data structure
-The dataset comprises approximately 11,000 user comments on immigration-related online news articles.
+The dataset comprises approximately 11,000 user comments on 67 immigration-related online news articles. Here's an example data row: . 
+We work only with the “comment” field. However, as a note, “source” is the comment’s id in the tree of comments to an article.
 
 ## Methodology
 
