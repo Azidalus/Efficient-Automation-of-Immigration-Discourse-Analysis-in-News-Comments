@@ -29,3 +29,5 @@ For topics, I first used 2 unsupervised topic models, LDA and CorEx, and they bo
 
 ### Approach for stances
 For stances, I explored the use of Anchored CorEx and a conversational language model Llama-3. The first approach proved to be not feasible at all, and the latter model turned out an efficient solution for stance labeling, with accuracy at 69%.
+
+## Results
