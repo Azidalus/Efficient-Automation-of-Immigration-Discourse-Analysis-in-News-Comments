@@ -27,6 +27,14 @@ We work only with the `comment` field. However, as a note, `source` is the comme
 For topics, I first used 2 unsupervised topic models, LDA and CorEx, and they both produced not super promising results: only 8-10 interpretable topics out of 18, and even then too generic. That is why a semi-supervised topic model Anchored CorEx was then used. Three independent coders manually labeled a sample of 670 comments with topics (and proactively, stances). In total, we found 16 immigration-related topics. I then extracted useful terms for each topic from the labeled sample and seeded Anchored CorEx to guide it towards these topics. 
 (The coding guideline can be found in repository as well)
 
+#### Evaluation 
+Since the ultimate goal of the thesis is to label the dataset with a sufficient number of
+specific topics (10-20) rather than to find all possible underlying topics, we focus on
+evaluating how effectively the model detects the topics of our interest. We achieve that
+by comparing predicted topics with the ground truth topics from the labeled dataset
+gained through manual coding and assessing the model’s performance using Precision
+and Recall.
+
 ### Approach for stances
 For stances, I explored the use of Anchored CorEx and a conversational language model Llama-3. The first approach proved to be not feasible at all, and the latter model turned out an efficient solution for stance labeling.
 
@@ -35,7 +43,7 @@ three predicted stances. The final stance for the comment is determined by the m
 labeled as “-”.
 
 #### Evaluation 
-is performed
+For evaluation, Accuracy of the predicted labels and per-stance Precision and Recall are used.
 
 ## Results
 
