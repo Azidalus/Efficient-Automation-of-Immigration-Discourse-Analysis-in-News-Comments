@@ -28,12 +28,7 @@ For topics, I first used 2 unsupervised topic models, LDA and CorEx, and they bo
 (The coding guideline can be found in repository as well)
 
 #### Evaluation 
-Since the ultimate goal of the thesis is to label the dataset with a sufficient number of
-specific topics (10-20) rather than to find all possible underlying topics, we focus on
-evaluating how effectively the model detects the topics of our interest. We achieve that
-by comparing predicted topics with the ground truth topics from the labeled dataset
-gained through manual coding and assessing the model’s performance using Precision
-and Recall.
+Since the stakeholders' need is to have the dataset labeled with a sufficient number of specific topics (10-20) rather than to find all possible underlying topics, evaluation revolves around how effectively the model detects the topics of our interest. It is achieved by comparing predicted topics with the ground truth topics from the labeled subset and assessing the model’s performance using Precision and Recall.
 
 ### Approach for stances
 For stances, I explored the use of Anchored CorEx and a conversational language model Llama-3. The first approach proved to be not feasible at all, and the latter model turned out an efficient solution for stance labeling.
