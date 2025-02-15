@@ -28,7 +28,14 @@ For topics, I first used 2 unsupervised topic models, LDA and CorEx, and they bo
 (The coding guideline can be found in repository as well)
 
 ### Approach for stances
-For stances, I explored the use of Anchored CorEx and a conversational language model Llama-3. The first approach proved to be not feasible at all, and the latter model turned out an efficient solution for stance labeling, with accuracy at 69%.
+For stances, I explored the use of Anchored CorEx and a conversational language model Llama-3. The first approach proved to be not feasible at all, and the latter model turned out an efficient solution for stance labeling.
+
+Because the model can occasionally assign different stances to the same comment, stance prediction is performed three times, resulting in each comment having
+three predicted stances. The final stance for the comment is determined by the most prevalent stance among the three, and if all three stances differ, the final stance is
+labeled as “-”.
+
+#### Evaluation 
+is performed
 
 ## Results
 
