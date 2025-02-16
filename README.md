@@ -25,15 +25,9 @@ We work only with the `comment` field. However, as a note, `source` is the comme
 
 ### Approach for topics
 We choose to test only a few unsupervised models, as
-we hypothesize unsupervised models will struggle with the data due to its small size
-(10,982 documents) and topic-homogeneity and aimed to reserve time for potentially
-more promising semi-supervised models, since we need reliable results for a real-world
+we hypothesize unsupervised models will struggle with the data due to its small size (10,982 documents) and topic-homogeneity and aimed to reserve time for potentially more promising semi-supervised models, since we need reliable results for a real-world
 application.
-After indeed seeing not the best results, we perform manual data coding to get a
-better idea of the underlying topics in the dataset and obtain ground-truth labels for
-semi-supervised-models. Finally, we leverage a semi-supervised topic model Anchored
-CorEx to identify the learnt topics and possibly discover more unknown topics, evaluate
-the result, and use it to label the dataset with immigration topics.
+After indeed seeing not the best results, we perform manual data coding to get a better idea of the underlying topics in the dataset and obtain ground-truth labels for semi-supervised-models. Finally, we leverage a semi-supervised topic model Anchored CorEx to identify the learnt topics and possibly discover more unknown topics, evaluate the result, and use it to label the dataset with immigration topics.
 
 For topics, I first used 2 unsupervised topic models, LDA and CorEx, and they both produced not super promising results: only 8-10 interpretable topics out of 18, and even then too generic. That is why a semi-supervised topic model Anchored CorEx was then used. Three independent coders manually labeled a sample of 670 comments with topics (and proactively, stances). In total, we found 16 immigration-related topics. I then extracted useful terms for each topic from the labeled sample and seeded Anchored CorEx to guide it towards these topics. 
 (The coding guideline can be found in repository as well)
