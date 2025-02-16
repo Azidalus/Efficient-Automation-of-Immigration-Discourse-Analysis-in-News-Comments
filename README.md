@@ -35,11 +35,9 @@ For topics, I first used 2 unsupervised topic models, LDA and CorEx, and they bo
 Since the stakeholders' need is to have the dataset labeled with a sufficient number of specific topics (10-20) rather than to find all possible underlying topics, evaluation revolves around how effectively the model detects the topics of our interest. It is achieved by comparing predicted topics with the ground truth topics from the labeled subset and assessing the model’s performance using Precision and Recall.
 
 ### Approach for stances
-For stances, I explored the use of Anchored CorEx and a conversational language model Llama-3. The first approach proved to be not feasible at all, and the latter model turned out an efficient solution for stance labeling.
+For stances, few methods are explored: Anchored CorEx and a conversational language model Llama-3. The first approach proved to be not feasible at all, and the latter model turned out an efficient solution for stance labeling.
 
-Because the model can occasionally assign different stances to the same comment, stance prediction is performed three times, resulting in each comment having
-three predicted stances. The final stance for the comment is determined by the most prevalent stance among the three, and if all three stances differ, the final stance is
-labeled as “-”.
+Because the model can occasionally assign different stances to the same comment, stance prediction is performed three times, resulting in each comment having 3 predicted stances. The final stance for the comment is determined by the most prevalent stance among the three, and if all three stances differ, the final stance is labeled as “-”.
 
 #### Evaluation 
 For evaluation, Accuracy of the predicted labels and per-stance Precision and Recall are used.
@@ -48,7 +46,7 @@ For evaluation, Accuracy of the predicted labels and per-stance Precision and Re
 
 
 ### Stances
-The model has 64% overall Accuracy, with particular success in identifying “neg” and “none” stances. The model detects nearly all anti-immigration comments (92%), although sometimes assigning that stance wrongly. It has some difficulty recognizing “none” stance comments (only 54% are spotted), but on the other hand almost all (88%) such predictions are correct. The positive stance is the most challenging for the model to detect (only 16% of comments are spotted), also with enough faulty predictions. 
+The Llama model has 64% overall Accuracy, with particular success in identifying “neg” and “none” stances. The model detects nearly all anti-immigration comments (92%), although sometimes assigning that stance wrongly. It has some difficulty recognizing “none” stance comments (only 54% are spotted), but on the other hand almost all (88%) such predictions are correct. The positive stance is the most challenging for the model to detect (only 16% of comments are spotted), also with enough faulty predictions. 
 
 If we exclude the comments where the model is uncertain, Accuracy and all metrics for all stances improve even further. 97% of negative comments are recognized, still with occasional mispredictions. “None” stance comments are still a bit of a struggle, only 55% are spotted, though we have a 94% chance that if a comment is predicted to have this stance, it is true. The biggest challenge continues to be the “pos” stance - it is difficult to recognize it, although if the model does see it, there is 80% that it is correct.
 
