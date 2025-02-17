@@ -51,9 +51,13 @@ indicating that there are quite some false positives, appearing due to multi-con
 words. Additionally, we can also observe a decrease in Precision along the x-axis -
 meaning Precision decreases when the topic sample size decreases
 
+#### Final topics distribution
+
 ### Stances
 The Llama model has 64% overall Accuracy, with particular success in identifying “neg” and “none” stances. The model detects nearly all anti-immigration comments (92%), although sometimes assigning that stance wrongly. It has some difficulty recognizing “none” stance comments (only 54% are spotted), but on the other hand almost all (88%) such predictions are correct. The positive stance is the most challenging for the model to detect (only 16% of comments are spotted), also with enough faulty predictions. 
 
 If we exclude the comments where the model is uncertain, Accuracy and all metrics for all stances improve even further. 97% of negative comments are recognized, still with occasional mispredictions. “None” stance comments are still a bit of a struggle, only 55% are spotted, though we have a 94% chance that if a comment is predicted to have this stance, it is true. The biggest challenge continues to be the “pos” stance - it is difficult to recognize it, although if the model does see it, there is 80% that it is correct.
+
+#### Final stance distribution
 
 ## Future improvements
