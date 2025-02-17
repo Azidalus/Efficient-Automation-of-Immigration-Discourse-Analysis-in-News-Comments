@@ -45,7 +45,11 @@ For evaluation, Accuracy of the predicted labels and per-stance Precision and Re
 ## Results
 
 ### Topics
-
+All topics except “victim: Global” have a high Recall above 0.5, which means the model can recognize
+majority of the relevant instances. That, however, comes at a cost of small Precision,
+indicating that there are quite some false positives, appearing due to multi-context
+words. Additionally, we can also observe a decrease in Precision along the x-axis -
+meaning Precision decreases when the topic sample size decreases
 
 ### Stances
 The Llama model has 64% overall Accuracy, with particular success in identifying “neg” and “none” stances. The model detects nearly all anti-immigration comments (92%), although sometimes assigning that stance wrongly. It has some difficulty recognizing “none” stance comments (only 54% are spotted), but on the other hand almost all (88%) such predictions are correct. The positive stance is the most challenging for the model to detect (only 16% of comments are spotted), also with enough faulty predictions. 
