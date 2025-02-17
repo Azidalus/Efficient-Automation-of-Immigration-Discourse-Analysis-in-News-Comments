@@ -44,6 +44,8 @@ For evaluation, Accuracy of the predicted labels and per-stance Precision and Re
 
 ## Results
 
+### Topics
+
 
 ### Stances
 The Llama model has 64% overall Accuracy, with particular success in identifying “neg” and “none” stances. The model detects nearly all anti-immigration comments (92%), although sometimes assigning that stance wrongly. It has some difficulty recognizing “none” stance comments (only 54% are spotted), but on the other hand almost all (88%) such predictions are correct. The positive stance is the most challenging for the model to detect (only 16% of comments are spotted), also with enough faulty predictions. 
