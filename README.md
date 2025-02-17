@@ -7,7 +7,7 @@
 * [Methodology](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Methodology)
 * [Results](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Results)
    * [Model performance](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Results#Model-performance)
-   * [Final topic distribution](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Results#Final-topic-distribution)
+   * [Final topic and stance distributions](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Results#Final-topic-and-stance-distributions)
 * [Future improvements](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Future-improvements)
 
 ## Project background
