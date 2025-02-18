@@ -11,7 +11,7 @@
 * [Future improvements](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Future-improvements)
 
 ## Project background
-The HYBRIDS organization aims to explore how people with varying attitudes toward immigration express their thoughts, but requires labeled data to do so.
+The HYBRIDS project[<sup>[1]</sup>](https://hybridsproject.eu/) aims to explore how people with varying attitudes toward immigration express their thoughts, but requires labeled data to do so.
 
 This project focuses on efficient automated labeling of a dataset requested by HYBRIDS with discussion topics and stances towards immigration (positive, negative, or unclear). To achieve that, several NLP models are applied and a web-application for their further use is created. 
 
