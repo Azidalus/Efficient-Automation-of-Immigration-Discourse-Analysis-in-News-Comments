@@ -62,11 +62,11 @@ If we exclude the comments where the model is uncertain, Accuracy and all metric
 
 ### Final topic and stance distribution
 <p align="center">
-![final_stance_distrib](https://github.com/user-attachments/assets/50b52bb9-a984-4e84-bd2d-fede4a82994e)
+<img src="https://github.com/user-attachments/assets/50b52bb9-a984-4e84-bd2d-fede4a82994e" height=400>
 </p>
 
 <p align="center">
-![final_topics_distribution](https://github.com/user-attachments/assets/14524b74-f9ea-4aab-ad03-2081fa1acc24)
+<img src="https://github.com/user-attachments/assets/14524b74-f9ea-4aab-ad03-2081fa1acc24" height=250>
 </p>
 
 
