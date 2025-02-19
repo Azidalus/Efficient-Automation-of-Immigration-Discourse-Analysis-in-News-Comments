@@ -24,7 +24,7 @@ The dataset comprises approximately 11,000 user comments on 75 immigration-relat
 
 We work only with the `comment` field. However, as a note, `source` is the comment’s id in the tree of comments to an article.
 
-> **Note**: The dataset is an immigration-related subset sampled from the much larger SFU Opinion and Comments Corpus (SOCC). More information on how it was sampled can be found in the thesis (Chapter 3 "Approach", subsection 3.1 "Data").
+> **NOTE**: The dataset is an immigration-related subset sampled from the much larger SFU Opinion and Comments Corpus (SOCC). More information on how it was sampled can be found in the thesis (Chapter 3 "Approach", subsection 3.1 "Data").
 
 ## Methodology
 
