@@ -1,5 +1,4 @@
 # Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments
-*In this repository, you can find a dataset of 11k user comments to immigration-related news articles labeled with 15 immigration-related topics and stances towards immigration (positive, negative, and unclear), as well as Python notebooks with the models used for that task.*
 
 ## Table of contents
 * [Project background](https://github.com/Azidalus/Efficient-Automation-of-Immigration-Discourse-Analysis-in-News-Comments#Project-background)
